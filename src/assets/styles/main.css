@@ -1,0 +1,13 @@
+/* main.css */
+@import './reset.css';
+@import './variables.css';
+@import './base.css';
+@import './header.css';
+@import './hero.css';
+@import './buttons.css';
+@import './projects.css';
+@import './testimonials.css';
+@import './faq.css';
+@import './contact.css';
+@import './footer.css';
+@import './media-queries.css';

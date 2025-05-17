@@ -1,0 +1,33 @@
+:root {
+    --background-color: #ffffff;
+    --logo-text: #000000;
+    --primary-text: #181d27;
+    --secondary-text: #535862;
+    --accent: #7f56d9;
+    --light-bg: #fafafa;
+    --dark-bg: #53389e;
+    --category-text: #6941c6;
+    --hover-color: #6941c6;
+    --button-color: #7f56d9;
+    --project-info: #181d27;
+    --hover-scroll: invert(86%) sepia(80%) saturate(2%) hue-rotate(54deg) brightness(112%) contrast(100%);
+    --back-scroll: brightness(0) saturate(100%) invert(26%) sepia(5%) saturate(1487%) hue-rotate(183deg) brightness(98%) contrast(91%);
+    ;
+    --arrow-img: invert(0%) sepia(5%) saturate(2%) hue-rotate(82deg) brightness(115%) contrast(101%);
+    --border-scroll-button: #D5D7DA;
+  }
+  
+  :root:has(#theme-toggle:checked) {
+    --background-color: #0c0e12;
+    --logo-text: #ffffff;
+    --primary-text: #ffffff;
+    --secondary-text: #94979c;
+    --light-bg: #13161b;
+    --category-text: #cecfd2;
+    --project-info: #94979c;
+    --hover-scroll: brightness(0) saturate(100%) invert(21%) sepia(6%) saturate(941%) hue-rotate(184deg) brightness(97%) contrast(92%);
+    --back-scroll: brightness(0) saturate(100%) invert(96%) sepia(28%) saturate(1%) hue-rotate(162deg) brightness(103%) contrast(102%);
+    --arrow-img: invert(86%) sepia(80%) saturate(2%) hue-rotate(54deg) brightness(112%) contrast(100%);
+    --border-scroll-button: #373A41;
+  }
+  

@@ -1,0 +1,83 @@
+.primary-header {
+    position: sticky;
+    top: 0;
+    min-height: 5rem;
+    padding: 1.75rem 2rem;
+    background-color: var(--background-color);
+    z-index: 1000;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+    color: var(--logo-text);
+    font-weight: 600;
+  }
+  
+  .primary-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .primary-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.33rem;
+  }
+  
+  .primary-nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-text);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  
+  #menu__toggle {
+    display: none;
+  }
+  
+  .theme-switch {
+    all: unset;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .theme-switch .sun-svg {
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .theme-switch .moon-svg {
+    display: none;
+    /* Hide moon by default */
+    transition: all 0.3s ease;
+  }
+  
+  #theme-toggle:checked~.theme-switch .sun-svg {
+    display: none;
+    /* Hide sun when checked */
+  }
+  
+  #theme-toggle:checked~.theme-switch .moon-svg {
+    display: block;
+    /* Show moon when checked */
+  }
+  
+  .theme-switch .sun-svg:hover,
+  .theme-switch .moon-svg:hover {
+    filter: invert(27%) sepia(75%) saturate(1820%) hue-rotate(242deg) brightness(86%) contrast(92%);
+  }
+  
+  .theme-switch .sun-svg,
+  .theme-switch .moon-svg {
+    transition: all 0.3s ease;
+  }
+  
